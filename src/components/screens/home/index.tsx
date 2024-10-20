@@ -73,16 +73,6 @@ const Index = () => {
           }}
         ></div>
 
- {/* Background for screens ipro 1024 */}
-        <div
-          className="absolute inset-0 hidden ipr:block  sm:hidden md:hidden  bg-cover bg-center"
-          style={{  
-            backgroundImage: `url('/images/ipro.png')`, 
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }} 
-        ></div>
 
          {/* Background for mobile landscape 844 */}
          <div
@@ -97,11 +87,11 @@ const Index = () => {
 
 
 
- {/* Background for screens ipad landscape 1024 */}
- <div
-          className="absolute inset-0 hidden ipr:hidden mil:block  sm:hidden md:hidden  bg-cover bg-center"
+                 {/* Background for screens ipad pro ipm landscape 1024 */}
+                 <div
+          className="absolute inset-0 hidden  il:block  sm:hidden md:hidden  bg-cover bg-center"
           style={{  
-            backgroundImage: `url('/images/desktop-background.jpg')`, 
+            backgroundImage: `url('/images/ipadlandscape.jpg')`, 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -109,17 +99,29 @@ const Index = () => {
         ></div>
 
 
-        
+
+
+                 {/* Background for screens ipad pro m landscape 1024 */}
+ <div
+          className="absolute inset-0 hidden  ipm:block  sm:hidden md:hidden  bg-cover bg-center"
+          style={{  
+            backgroundImage: `url('/images/ipad.jpg')`, 
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        ></div>
+
         
         
         
 
         {/* Content Container */}
-        <div className="relative z-10 text-darkGreyColor flex flex-col items-center lg:items-start text-left max-w-sm lg:max-w-lg pb-20 bottom-12 lg:right-48 xl:right-52 
-        md:ml-[200px] ip:ml-[0px] ipr:ml-[-200px] ml:ml-[250px] ml:my-[-50px]
+        <div className="relative z-10 text-darkGreyColor flex flex-col items-center lg:items-center text-center max-w-sm lg:max-w-lg pb-20 bottom-12 lg:right-48 xl:right-52 
+        md:ml-[200px] ip:ml-[0px]  ipr:my-[100px] ml:ml-[250px] ml:my-[-50px]
         2xl:right-64 2xl:bottom-20  xl-2:right-96 xl-2:bottom-44">
-          <h1 className="text-3xl md-lg:ml-[10px] lg:text-5xl xl:text-6xl xl-2:text-7xl ip:text-5xl ipr:ml-[-200px] ipr:text-[60px] sm:text-5xl ip:mt-[-200px] ia:mt-[-200px] md:text-4xl font-bold mb-4 ">Cloud Shapers</h1>
-          <p className="md:text-lg md-lg:ml-[-30px] lg:text-xl mb-7 xl-2:text-3xl ipr:ml-[-190px] ipr:text-[35px] ip:text-2xl sm:text-2xl ">Imagine the future, then build it</p>
+          <h1 className="text-[60px] xs:text-[35px] sm:text-[50px] ipr:text-[50px]">Cloud Shapers</h1>
+          <p className="text-[20px] mx-14 xs:text-[18px] sm:text-[19px]  ipr:text-[20px]">Imagine the future, then build it</p>
           <h1 className='md:font-light'>
 
           </h1>

@@ -93,7 +93,9 @@ export function ContactFormDialog() {
       <DialogTrigger asChild>
         {/* Center the button */}
         <div className="flex justify-center">
-          <Button className="w-full ip:text-[22px] ipr:ml-[-120px]  sm:text-[22px]  lg:w-64 xl-2:text-3xl xl-2:p-8 max-w-sm bg-darkGreyColor/80 text-background text-center md-lg:ml-[80px]">
+          <Button className="w-full  ip:text-[22px] px-[250px] py-[25px] mx-[60px] my-2   sm:text-[22px]  lg:w-64 xl-2:text-3xl xl-2:p-8 max-w-sm bg-darkGreyColor/80 text-background text-center md-lg:ml-[80px]
+          xs:px-[120px] ipm:px-[170px] ipr:px-[50px]
+          ">
             Contact Us
           </Button>
         </div>
