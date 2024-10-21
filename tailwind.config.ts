@@ -21,6 +21,7 @@ const config: Config = {
 			'il': '1180px',
 			'ipm': '1024px',
 			'md': '812px',
+			'mds': '844px',
 			'md-lg': '1090px',  // Custom breakpoint for 1090px
 			'xl-2': '1960px',   // Custom breakpoint for 1960px
 		  },

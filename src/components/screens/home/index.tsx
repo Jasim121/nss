@@ -119,9 +119,9 @@ const Index = () => {
         {/* Content Container */}
         <div className="relative z-10 text-darkGreyColor flex flex-col items-center lg:items-center text-center max-w-sm lg:max-w-lg pb-20 bottom-12 lg:right-48 xl:right-52 
         md:ml-[200px] ip:ml-[0px]  ipr:my-[100px] ml:ml-[250px] ml:my-[-50px]
-        2xl:right-64 2xl:bottom-20  xl-2:right-96 xl-2:bottom-44">
-          <h1 className="text-[60px] xs:text-[35px] sm:text-[50px] ipr:text-[50px]">Cloud Shapers</h1>
-          <p className="text-[20px] mx-14 xs:text-[18px] sm:text-[19px]  ipr:text-[20px]">Imagine the future, then build it</p>
+        2xl:right-64 2xl:bottom-20 md:ms-[300px]  xl-2:right-96 xl-2:bottom-44">
+          <h1 className="text-[60px] xs:text-[35px] sm:text-[50px] ipr:text-[50px] md:text-[26px]">Cloud Shapers</h1>
+          <p className="text-[20px] mx-14 xs:text-[18px] sm:text-[19px]  ipr:text-[20px] md:text-[11px]">Imagine the future, then build it</p>
           <h1 className='md:font-light'>
 
           </h1>
