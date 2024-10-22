@@ -20,6 +20,7 @@ const config: Config = {
 			'mil': '1024px',
 			'il': '1180px',
 			'ipm': '1024px',
+			'ipml': '1024px',
 			'md': '812px',
 			'mds': '844px',
 			'md-lg': '1090px',  // Custom breakpoint for 1090px
