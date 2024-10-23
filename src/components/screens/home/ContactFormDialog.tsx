@@ -110,9 +110,9 @@ export function ContactFormDialog() {
           </DialogTitle>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit} className="grid gap-6 py-4">
+        <form onSubmit={handleSubmit} className="grid gap-6 py-4 mds:py-0 mds:gap-2 md:py-0 md:gap-2">
           {/* First Name Input */}
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-4 mds:gap-1 md:gap-2">
             <Label htmlFor="first_name" className="text-darkGreyColor">
               First Name
             </Label>

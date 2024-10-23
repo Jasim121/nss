@@ -66,7 +66,7 @@ const Index = () => {
          <div
           className="absolute inset-0 hidden ip:block sm:hidden md:hidden lg:hidden xl:hidden md-lg:hidden xl-2:hidden bg-cover bg-center"
           style={{  
-            backgroundImage: `url('/images/ipro.png')`, 
+            // backgroundImage: `url('/images/ipro.png')`, 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -125,7 +125,7 @@ const Index = () => {
           }}
         ></div>
 
-
+    
         
         
         
