@@ -19,9 +19,9 @@ const Index = () => {
 
         {/* Background for screens between 1025px to 1300px */}
         <div
-          className="absolute inset-0 hidden lg:block xl:hidden bg-cover bg-center"
+          className="absolute inset-0 hidden md-lg:block lg:hidden xl:hidden bg-cover bg-center"
           style={{
-            backgroundImage: `url('/images/desktop-background.jpg')`, 
+            // backgroundImage: `url('/images/desktop-background.jpg')`, 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -115,10 +115,21 @@ const Index = () => {
           }}
         ></div>
 
+                         {/* Background for screens main */}
+ <div
+          className="absolute inset-0 hidden md-lg:block ipml:hidden  ipm:hidden mil:hidden ipr:hidden  sm:hidden md:hidden il:hidden  bg-cover bg-center"
+          style={{  
+            backgroundImage: `url('/images/desktop-background.jpg')`, 
+            backgroundSize: '100% 100%',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        ></div>
+
           <div
           className="absolute inset-0 hidden ipml:block sm:hidden xs:hidden ml:hidden ipr:hidden mil:hidden il:hidden ipm:hidden md:hidden mds:hidden md-lg:hidden xl-2:hidden  bg-cover bg-center"
           style={{  
-            // backgroundImage: `url('/images/mobile.png')`, 
+            backgroundImage: `url('/images/mobile.png')`, 
             backgroundSize: '100% 100%',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
